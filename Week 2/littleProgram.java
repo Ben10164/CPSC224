@@ -17,7 +17,6 @@ class Person {
         } else {
             this.height_m = newHeight_m;
         }
-
     }
 
     void printHeight() {
