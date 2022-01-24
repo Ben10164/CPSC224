@@ -1,0 +1,13 @@
+<mxfile host="65bd71144e">
+    <diagram id="c4SegNKQJvIpXFwsU7ox" name="Page-1">
+        <mxGraphModel dx="918" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="/* (C)2021 */&#10;package edu.gonzaga;&#10;&#10;/*&#10; *  This is the main class for the Yahtzee project.&#10; *  It really should just instantiate another class and run&#10; *   a method of that other class.&#10; */&#10;&#10;/** Main program class for launching Yahtzee program. */&#10;public class Yahtzee {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello Yahtzee&quot;);&#10;&#10;        Hand hand = new Hand();&#10;&#10;        hand.askUserKeep();&#10;        hand.askUserKeep();&#10;        hand.closeHand();&#10;    }&#10;}" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry width="330" height="310" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
